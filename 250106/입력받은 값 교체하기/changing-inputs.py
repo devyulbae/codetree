@@ -1,5 +1,3 @@
-a, b = input().split()
-
-a,b = b,a
+b, a = input().split()
 
 print(a, b)
