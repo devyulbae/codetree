@@ -1,3 +1,3 @@
-a, b = int(input().split())
+a, b = int(input()).split()
 
 print(a*b)
