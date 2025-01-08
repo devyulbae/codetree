@@ -1,7 +1,4 @@
-x_age, x_sex = map(int, input().split())
-y_age, y_sex = map(int, input().split())
+x_age, x_sex = input().split()
+y_age, y_sex = input().split()
 
-if(x_age>=19 and x_sex=="M") or (y_age>=19 and y_sex=="M"):
-    print(1)
-else:
-    print(0)
+print(1) if ((int(x_age)>=19 and x_sex=="M") or (int(y_age)>=19 and y_sex=="M")) else print(0)
