@@ -1,8 +1,5 @@
 n = int(input())
 
-if(n==2):
-    print(28)
-elif(n%2==1):
-    print(31)
-else:
-    print(30)
+days = [31,28,31,30,31,30,31,31,30,31,30,31]
+
+print(days[n-1])
