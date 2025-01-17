@@ -10,12 +10,5 @@ for i in range(20):
 print(a//b,end="")
 print(".",end="")
 
-if(a//b < 10):
-    for i in range(20):
-        print(arr[i],end="")
-elif(a//b <100):
-    for i in range(19):
-        print(arr[i],end="")
-else:
-    for i in range(18):
-        print(arr[i],end="")
+for i in range(20):
+    print(arr[i],end="")
