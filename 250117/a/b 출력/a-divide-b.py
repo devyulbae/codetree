@@ -7,6 +7,7 @@ for i in range(20):
     arr.append(a // b)
     a = (a%b)
 
-print("0.",end="")
+print(a//b,end="")
+print(".",end="")
 for i in range(20):
     print(arr[i],end="")
